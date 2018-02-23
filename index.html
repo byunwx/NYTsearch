@@ -2,6 +2,9 @@
 <html lang="en-us">
 
 <head>
+  <!-- New York Times Article Search Site
+  Backend Team: Woojoo Byun, Al Curry
+  Frontend Team: Timour Basegmez, Jess Creiglow -->
   <meta charset="UTF-8">
   <title>New York Times Articles</title>
 
@@ -22,7 +25,7 @@
 
 <body class="container">
 
-
+<!-- Nav Bar Header -->
   <nav class="navbar navbar-default">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -33,6 +36,7 @@
     </div>
   </nav>
 
+<!-- Search Box -->
   <div class="panel panel-default firstbox">
     <div class="panel-heading">
       <h3 class="panel-title">Search Parameters</h3>
@@ -51,12 +55,12 @@
         </div>
         <div class="row">
           <p>Start Date:
-            <input id="startYear" type="date" name="startYear">
+            <input id="startYear" type="text" name="startYear">
           </p>
         </div>
         <div class="row">
           <p>End Date:
-            <input id="endYear" type="date" name="endYear">
+            <input id="endYear" type="text" name="endYear">
           </p>
         </div>
         <button class="btn-info"> Submit </button>
@@ -64,6 +68,7 @@
     </div>
   </div>
 
+<!-- API Data Responses -->
   <div class="panel panel-default secondbox">
     <div class="panel-heading">
       <h3 class="panel-title">Top Articles</h3>
