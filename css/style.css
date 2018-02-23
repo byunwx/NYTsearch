@@ -1,0 +1,14 @@
+.firstbox {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.secondbox {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+body {
+    background-color: grey;
+}
+.nytsnav {
+    color: lightseagreen;
+}
