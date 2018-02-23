@@ -20,9 +20,35 @@
 
 </head>
 
-<body>
+<body class="container">
 
 
+<!-- Text input boxes -->
+<div class="row">
+  <form> <h2>Search Parameters</h2>
+    <div class="row">
+      <p>Search Term:
+        <input id="search" type="text" required="required" name="search">
+      </p>
+    </div>
+    <div class="row">
+      <p>Number of Records to Retreive:
+        <input id="records" type="number"  required="required" name="records">
+      </p>
+    </div>
+    <div class="row">
+      <p>Start Date:
+        <input id="startYear" type="date" name="startYear">
+      </p>
+    </div>
+    <div class="row">
+      <p>End Date:
+        <input id="endYear" type="date" name="endYear">
+      </p>
+    </div>
+    <button class="btn-info"> Submit </button>
+  </form>
+</div>
   <script type="text/javascript" src="./javascript/script.js"></script>
 </body>
 
