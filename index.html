@@ -19,8 +19,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
 </head>
-
-<body>
+<body class="container">
 
 
   <nav class="navbar navbar-default">
@@ -38,7 +37,31 @@
         <h3 class="panel-title">Search Parameters</h3>
       </div>
       <div class="panel-body">
-        Panel content
+      <div class="row">
+  <form> <h2>Search Parameters</h2>
+    <div class="row">
+      <p>Search Term:
+        <input id="search" type="text" required="required" name="search">
+      </p>
+    </div>
+    <div class="row">
+      <p>Number of Records to Retreive:
+        <input id="records" type="number"  required="required" name="records">
+      </p>
+    </div>
+    <div class="row">
+      <p>Start Date:
+        <input id="startYear" type="date" name="startYear">
+      </p>
+    </div>
+    <div class="row">
+      <p>End Date:
+        <input id="endYear" type="date" name="endYear">
+      </p>
+    </div>
+    <button class="btn-info"> Submit </button>
+  </form>
+</div>
       </div>
     </div>
 
@@ -50,6 +73,7 @@
           Panel content
         </div>
       </div>
+
 
   <script type="text/javascript" src="./javascript/script.js"></script>
 </body>
