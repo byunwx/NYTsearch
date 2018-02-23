@@ -36,7 +36,7 @@ console.log(queryURL);
      var newDiv= $("<div>");
      var title=$("<div>").text(res.response.docs[i].headline.main);
      var date=$("<span>").text(res.response.docs[i].pub_date);
-     var urllink=$("<a>").attr("href", res.response.docs[i].web.url);
+     var urllink=$("<a>").attr("href", res.response.docs[i].web_url);
      var snippet=$("<div>").text(res.response.docs[i].snippet);
      urllink.append(snippet);
      newDiv.append(title, date, urllink);
