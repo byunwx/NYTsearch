@@ -40,7 +40,7 @@ console.log(queryURL);
      var snippet=$("<div>").text(res.response.docs[i].snippet);
      urllink.append(snippet);
      newDiv.append(title, date, urllink);
-     $(".panel-body").append(newDiv);
+     $("#data").append(newDiv);
      console.log(newDiv);
    }
  })
