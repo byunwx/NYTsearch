@@ -20,7 +20,7 @@ console.log(0);
  console.log(startYear);
  var endYear = trimDate($("#endYear").val().trim());
  console.log(endYear);
-var queryURL = "http://api.nytimes.com/svc/search/v2/articlesearch.json?q="+searchTerm+"&page=0&sort=newest&?begin_date="+startYear+"&?end_date="+endYear+"&api-key="+api_key;
+var queryURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q="+searchTerm+"&page=0&sort=newest&?begin_date="+startYear+"&?end_date="+endYear+"&api-key="+api_key;
 console.log(queryURL);
  $.ajax({
    url : queryURL,
